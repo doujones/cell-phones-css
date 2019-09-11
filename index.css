@@ -1,0 +1,41 @@
+:root{
+  --darkblue: navy;
+  --primary-color: red;
+  --midnight: black;
+  --font: orange;
+  --Gayathri: "Gayathri", sans-serif;
+  --Modak: "Modak", cursive;
+  --Roboto: "Roboto", cursive;
+}
+
+.primary-color{
+  color: var(--primary-color);
+}
+
+.bg-primary-color{
+  background-color: var(--primary-color)!important;
+}
+
+.text-color{
+  color: var(--text-color);
+}
+
+header{
+  background-color: var(--font);
+}
+
+header .site-title{
+  z-index: 29;
+}
+
+.header-links a{
+  font-size: 0.9;
+  text-decoration: none;
+  color: var(--midnight);
+}
+.header-links a:hover{
+  font-size: 1.9;
+  text-decoration: none;
+  color: purple;
+  transition: ease-in-out .2s;
+}
