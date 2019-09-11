@@ -3,6 +3,7 @@
   --primary-color: red;
   --midnight: black;
   --font: orange;
+  --purp: purple;
   --Gayathri: "Gayathri", sans-serif;
   --Modak: "Modak", cursive;
   --Roboto: "Roboto", cursive;
@@ -21,7 +22,7 @@
 }
 
 header{
-  background-color: var(--font);
+  background-color: var(--purp);
 }
 
 header .site-title{
@@ -38,4 +39,8 @@ header .site-title{
   text-decoration: none;
   color: purple;
   transition: ease-in-out .2s;
+}
+
+.container-fluid{
+  background-color: red;
 }
